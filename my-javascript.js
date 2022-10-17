@@ -158,28 +158,28 @@ console.log("HI");
 
 // console.log(my_data["my-classes"])
 
-const obj1 = {
-  name: "Arjun",
-  id: 99,
-};
+// const obj1 = {
+//   name: "Arjun",
+//   id: 99,
+// };
 
-const obj2 = {
-  name: "Ali",
-  id: 100,
-};
+// const obj2 = {
+//   name: "Ali",
+//   id: 100,
+// };
 
-const obj3 = {
-  name: "Ashish",
-  id: 101,
-};
+// const obj3 = {
+//   name: "Ashish",
+//   id: 101,
+// };
 
-const myArray = [obj1, obj2, obj3];
-console.log(myArray);
+// const myArray = [obj1, obj2, obj3];
+// console.log(myArray);
 
-const newArray = [{ name: "A" }, { name: "B" }, { name: "C" }];
-console.log(newArray);
+// const newArray = [{ name: "A" }, { name: "B" }, { name: "C" }];
+// console.log(newArray);
 
-newArray[0] = "My name is Arjun.";
+// newArray[0] = "My name is Arjun.";
 // console.log(newArray);
 
 // newArray = [9, {}, {}];

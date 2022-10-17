@@ -73,15 +73,11 @@ console.log("HI");
 
 // let numbers_array = [1, 2, 4, 8, 10, 12, 14]; // array of numbers
 
-
 // let array_of_strings = ['one', 'two', 'three']; // array of strings
-
 
 // let abc = [true, false, true, true, false];
 
-
 // let arr_of_multiple_types = [1, "Hello", "Bye", true, 32];
-
 
 // console.log(arr_of_multiple_types);
 
@@ -90,7 +86,6 @@ console.log("HI");
 // let a = 88;
 // let b = 'Hi';
 // let c = false;
-
 
 // console.log(typeof a);
 // console.log(typeof b);
@@ -108,7 +103,6 @@ console.log("HI");
 // number_array.push(31);
 // number_array.push(true);
 
-
 // Adding items to the start of an array
 // number_array.unshift(5);
 // number_array.unshift(6);
@@ -119,9 +113,73 @@ console.log("HI");
 // let third_element = number_array[2];
 // let last_element = number_array[number_array.length - 1];
 
-
 // console.log(third_element);
 
 // // array.indexOf()  - to get the index of an element in an array
 // const index = number_array.indexOf(false);
 // console.log(`Index is ${index}`);
+
+// let number_array = ["One", "Two", "Three", "Four", 5, false];
+// console.log(number_array);
+// number_array.pop();
+// console.log(number_array);
+// number_array.pop();
+// console.log(number_array);
+
+// console.log(number_array);
+// number_array.splice(3, 2);
+// console.log(number_array);
+// number_array.splice(0, 2);
+// console.log(number_array);
+// number_array.splice(0, 1);
+// console.log(number_array);
+
+// Objects
+
+// const my_data = {
+//   name: "Arjun",
+//   age: 29,
+//   address: "Some address",
+//   sector: "IT Sector",
+//   specialization: "UI Development",
+//   married: false,
+//   skills: ["HTML", "CSS", "Javascript"],
+//   "my-classes": [1, 2, 3]
+// };
+
+// cannot re-assign values to a const variable
+//
+// my_data = {};
+
+// console.log(my_data);
+// console.log(my_data.age);
+// console.log(my_data.name);
+// console.log(my_data.skills);
+
+// console.log(my_data["my-classes"])
+
+const obj1 = {
+  name: "Arjun",
+  id: 99,
+};
+
+const obj2 = {
+  name: "Ali",
+  id: 100,
+};
+
+const obj3 = {
+  name: "Ashish",
+  id: 101,
+};
+
+const myArray = [obj1, obj2, obj3];
+console.log(myArray);
+
+const newArray = [{ name: "A" }, { name: "B" }, { name: "C" }];
+console.log(newArray);
+
+newArray[0] = "My name is Arjun.";
+// console.log(newArray);
+
+// newArray = [9, {}, {}];

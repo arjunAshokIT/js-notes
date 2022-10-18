@@ -183,3 +183,23 @@ console.log("HI");
 // console.log(newArray);
 
 // newArray = [9, {}, {}];
+
+// Loops - For Loops, while loops
+
+// for (let i = 0; i < newArray.length; i++) {
+//   console.log(newArray[i]);
+// }
+
+// While loops
+
+// let i = 0;
+// while(i < newArray.length) {
+//     console.log(newArray[i]);
+//     i++;
+// }
+
+// let j = 0;
+// while (j < newArray.length) {
+//   console.log(`value of j: ${j}`);
+//   j++;
+// }

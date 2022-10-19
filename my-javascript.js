@@ -186,8 +186,49 @@ console.log("HI");
 
 // Loops - For Loops, while loops
 
+// const num = 89;
+
+// const newArray = [3, 5, 15];
+
 // for (let i = 0; i < newArray.length; i++) {
-//   console.log(newArray[i]);
+//   if (i === 3) {
+//     console.log("Three");
+//   } else if (i === 4) {
+//     console.log("Four");
+//   } else if (i === 5) {
+//     console.log("Five");
+//   } else if (i === 6) {
+//     console.log("Six");
+//   } else {
+//     console.log(newArray[i]);
+//   }
+
+//   switch (newArray[i]) {
+//     case 0:
+//       console.log("Zero");
+//       break;
+
+//     case 1:
+//       console.log("One");
+//       break;
+
+//     case 2:
+//       console.log("Two");
+//       break;
+
+//     default:
+//       console.log("DEFAULT");
+//   }
+
+//   switch (num == 89) {
+//     case true:
+//       console.log("TRUE!");
+//       break;
+
+//     case false:
+//       console.log("FALSE!");
+//       break;
+//   }
 // }
 
 // While loops
@@ -202,4 +243,14 @@ console.log("HI");
 // while (j < newArray.length) {
 //   console.log(`value of j: ${j}`);
 //   j++;
+// }
+
+// const arr = [0, 1, 2, 3, 4];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (i == 2) {
+//     continue;
+//   }
+
+//   console.log(`i : ${i}`);
 // }

@@ -254,3 +254,151 @@ console.log("HI");
 
 //   console.log(`i : ${i}`);
 // }
+
+// const ages = [5, 8, 9, 10, 12, 15]
+
+// for (let i = 0; i < ages.length; i++) {
+//   if (ages[i] < 10) {
+//     console.log(`i is less than 10`)
+//   } else if (ages[i] === '10') {
+//     console.log(`EQUAL TO TEN`)
+//   } else {
+//     console.log(`i > 10`);
+//   }
+// }
+
+// let age = 10
+
+// if (age === 10) {
+//   console.log('Value is 10')
+// }
+
+// if (age !== 10) {
+//   console.log('Value is NOT 10')
+// }
+
+// const ages = [10, 20, 30, 40]
+
+// for (let i = 0; i < ages.length; i++) {
+//   switch (ages[i]) {
+//     case 10:
+//       console.log('It is TEN')
+//       break
+
+//     case 20:
+//       console.log('It is TWENTY')
+//       break
+
+//     default:
+//       console.log('IT is > 20')
+//   }
+// }
+
+const ages = [10, 20, 30, 40]
+
+const names = ['name1', 'name2', 'name3']
+
+// for(let i = 0; i < ages.length; i++) {
+//     if(i == (ages.length - 1)) {
+//         console.log(ages[i]);
+//     }
+// }
+
+//  for each loop | for of (most commonly used FOR loop)
+
+// for (let x of names) {
+//   const i = names.indexOf(x)
+
+//   if (i === 0) {
+//     console.log(names[0])
+//   }
+// }
+
+// const num1 = 5
+// const num2 = 3
+
+// for in loop
+// obj = {
+//   name: 'k',
+//   age: 10,
+//   address: 'some address',
+//   phone: '122323'
+// }
+
+// for (let i in obj) {
+//   console.log(obj[i])
+// }
+
+// Functions
+
+// function multiply(num1, num2) {
+//   console.log(num1 * num2)
+// }
+
+// function logFiveTimes() {
+//   console.log(num1 * num2)
+//   console.log(num1 * num2)
+//   console.log(num1 * num2)
+//   console.log(num1 * num2)
+//   console.log(num1 * num2)
+//   console.log('---------------')
+// }
+
+// Javascript is a loosely typed language
+
+// class Car {
+//   model
+//   date
+//   color
+//   mileage
+
+//   constructor(model, date, color, mileage) {
+//     this.model = model
+//     this.date = date
+//     this.color = color
+//     this.mileage = mileage
+//   }
+
+//   drive() {}
+//   park() {}
+//   turnOn() {}
+//   turnOff() {}
+
+//   getDateOfManufacture() {
+//     return this.date
+//   }
+
+//   logCarDetails() {
+//     console.log(`The date of manufacture: ${this.date}`)
+//     console.log(`The model is: ${this.model}`)
+//     console.log(`The color of the car is: ${this.color}`)
+//     console.log(`Mileage is: ${this.mileage}`)
+//   }
+// }
+
+// const marutiCar = new Car('Maruti Swift', 2010, 'Red', 20)
+// const tataCar = new Car('Tata Nexon', 2020, 'Black', 17)
+// const skodaCar = new Car()
+
+// marutiCar.logCarDetails()
+// console.log('----------')
+// tataCar.logCarDetails()
+// console.log('----------')
+
+// const date = marutiCar.getDateOfManufacture()
+// console.log(`date of manufacture for maruti is: ${date}`)
+
+// const tata_date = tataCar.getDateOfManufacture()
+// console.log(`date of manufacture for tata is: ${tata_date}`)
+
+// function logSomeText(name, age) {
+//   console.log('This is some text.')
+// }
+
+// Arrow functions
+
+// const logSomeText = (name, age) => {
+//   console.log(`My name is ${name}, my age is ${age}`)
+// }
+
+// logSomeText('Arjun', 29)

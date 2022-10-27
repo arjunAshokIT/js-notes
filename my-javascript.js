@@ -294,9 +294,9 @@ console.log("HI");
 //   }
 // }
 
-const ages = [10, 20, 30, 40]
+const ages = [10, 20, 30, 40];
 
-const names = ['name1', 'name2', 'name3']
+const names = ["name1", "name2", "name3"];
 
 // for(let i = 0; i < ages.length; i++) {
 //     if(i == (ages.length - 1)) {
@@ -395,18 +395,14 @@ const names = ['name1', 'name2', 'name3']
 //   console.log(`My name is ${name}, my age is ${age}`);
 // }
 
-
 // const logSomeText2 = (name, age) => {
 //     console.log(`My NAME is ${name}, my AGE is ${age}`);
 // }
 
-
 // logSomeText("Satish", 29);
 // logSomeText2("arjun", 39);
 
-
 // logSomeText('Arjun', 29)
-
 
 // Arrow functions
 
@@ -416,16 +412,37 @@ const names = ['name1', 'name2', 'name3']
 
 // logSomeText('Arjun', 29)
 
-
 // DOM Manipulation
 // Document Object Model
-const my_form_div = document.getElementById('my-form');
-console.log(`my_form_div`, my_form_div);
+// const my_form_div = document.getElementById('my-form');
+// console.log(`my_form_div`, my_form_div);
+
+// const containerHTML = document.getElementsByClassName('container');
+// console.log('containerHTML', containerHTML);
+
+// const test = document.querySelector("#my-form")
+// console.log(test);
+
+const ul = document.querySelector("ul");
+const li = document.createElement('li');
+li.innerText = "Item 4"
+
+ul.appendChild(li);
 
 
-const containerHTML = document.getElementsByClassName('container');
-console.log('containerHTML', containerHTML);
 
+// // ul.remove()
+// // ul.firstElementChild.remove()
+// ul.firstElementChild.textContent = "ITEM ONE"
+// ul.children[1].innerText = "<h1>I am changing you!</h1>"
+// ul.children[2].innerHTML = "<h1>New content</h1>"
+// console.log(ul.children);
 
-const test = document.querySelector("#my-form")
-console.log(test);
+function preventDefaultAndLog(event) {
+  event.preventDefault();
+  console.log("Button clicked!");
+}
+
+// Events
+const button = document.getElementsByClassName("btn")[0];
+button.addEventListener("click", preventDefaultAndLog);

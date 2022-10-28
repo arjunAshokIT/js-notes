@@ -412,8 +412,34 @@ const names = ["name1", "name2", "name3"];
 
 // logSomeText('Arjun', 29)
 
-// DOM Manipulation
+
+
+// JSON -> JAVASCRIPT OBJECT NOTATION
+
+// const obj = {
+//   name: "Arjun",
+//   age: 12,
+//   grade: "A"
+// };
+
+// const jsonData = JSON.parse(obj);
+
+// stringify -> 
+// const jsonData = JSON.stringify(obj)
+// parse -> 
+
+// console.log(obj);
+// console.log(jsonData);
+
+// const parsedJson = JSON.parse(jsonData);
+// console.log(parsedJson);
+
+
+
+// ----------> DOM Manipulation ------------>
+
 // Document Object Model
+
 // const my_form_div = document.getElementById('my-form');
 // console.log(`my_form_div`, my_form_div);
 
@@ -423,13 +449,11 @@ const names = ["name1", "name2", "name3"];
 // const test = document.querySelector("#my-form")
 // console.log(test);
 
-const ul = document.querySelector("ul");
-const li = document.createElement('li');
-li.innerText = "Item 4"
+// const ul = document.querySelector("ul");
+// const li = document.createElement("li");
+// li.innerText = "Item 4";
 
-ul.appendChild(li);
-
-
+// ul.appendChild(li);
 
 // // ul.remove()
 // // ul.firstElementChild.remove()
@@ -438,11 +462,31 @@ ul.appendChild(li);
 // ul.children[2].innerHTML = "<h1>New content</h1>"
 // console.log(ul.children);
 
-function preventDefaultAndLog(event) {
-  event.preventDefault();
-  console.log("Button clicked!");
-}
+// function preventDefaultAndLog(event) {
+//   event.preventDefault();
+//   console.log("Button clicked!");
+// }
 
-// Events
-const button = document.getElementsByClassName("btn")[0];
-button.addEventListener("click", preventDefaultAndLog);
+// // Events
+// const button = document.getElementsByClassName("btn")[0];
+// button.addEventListener("click", preventDefaultAndLog);
+
+
+// const button = document.getElementsByClassName("btn")[0]
+
+// // anonymous functions
+
+// button.addEventListener("click", function(event) {
+//   event.preventDefault();
+
+//   const name = document.getElementById("name");
+//   const email = document.getElementById("email")
+
+
+//   let obj = {
+//     my_name: name.value, 
+//     my_email: email.value
+//   }
+  
+//   console.log(obj);
+// })
